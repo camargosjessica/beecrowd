@@ -2,10 +2,10 @@ import time
 
 
 class ColorLight:
-    color = str
-    color_time = int
+    color: str = ""
+    color_time: int = 0
 
-    def __init__(self, color, color_time):
+    def __init__(self, color: str, color_time: int):
         self.color = color
         self.color_time = color_time
 
