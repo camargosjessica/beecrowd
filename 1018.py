@@ -1,4 +1,5 @@
 entrada = int(input())
+print(entrada)
 lista_notas = [100, 50, 20, 10, 5, 2, 1]
 
 for valor_nota in lista_notas:
